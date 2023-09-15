@@ -1,26 +1,94 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
 body {
     color:gray;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 img {
     width: 300px;
 }
 
+a {
+    color:blue;
+
+}
+
+a:hover{ 
+    text-decoration: none;
+    color:orange;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 2px 2px 5px rgb(55, 155, 222)
+}
+
+h2 {
+    font-size:50px;
+    text-shadow: 2px 2px 5px rgb(55, 155, 222);
+}
+
+h1,h2 {
+    font-weight: 350;
+    margin: 0;
+}
+
+.content-wrap {
+    width:700px;
+    margin: 0 auto;
+    
+
+}
+
 
 header {
-    background-color:rgb(116, 171, 237);
+    background-color:rgb(249, 252, 186);
     color:rgb(30, 29, 28);
 }
 
 .projects {
-    background-color: rgb(30, 29, 28);
+    background-color: cornsilk;
+}
+
+.projects a{
+    color:blue
+}
+
+.projects .btn{
+    color: navy;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.projects .btn:hover{
+    background: orange;
 }
 
 .work-experience {
-    background-color:rgb(30, 29, 28)
+    background-color:cornsilk;
+}
+
+.education {
+    background-color: cornsilk;
 }
 
 footer {
-    background-color: rgb(165, 90, 5);
+    background-color: rgb(173, 151, 125);
     color:rgb(30, 29, 28);
 }
